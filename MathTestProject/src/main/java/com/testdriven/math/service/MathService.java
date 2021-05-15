@@ -19,6 +19,12 @@ public class MathService {
 		return firstNumber * secondNumber;
 	}
 
+	public Boolean isEven(int number) {
+		return number % 2 == 0;
+	}
 
+	public Boolean isOdd(int number) {
+		return number % 2 != 0;
+	}
 
 }
